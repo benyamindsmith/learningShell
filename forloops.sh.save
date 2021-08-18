@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# For loop consists of 
+for TOKEN in $*
+do
+	echo $TOKEN
+done
+
+# quote the path and write the info
